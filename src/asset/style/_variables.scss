@@ -1,0 +1,95 @@
+$black_50: #eaeaf1;
+$black_100: #e2e1ed;
+$black_200: #afb4c4;
+$black_300: #585f69;
+$black_400: #32363d;
+$black_500: #1f1f1f;
+$white_500: #ffffff;
+$white_off_600: #f3f4f5;
+$semantic_red: #ea4f4f;
+$teal_500: #38b8cb;
+$data_yellow: #fad66e;
+$data_pink: #e0acd5;
+$data_red: #e18888;
+$data_blue: #9dc3e5;
+$shadow_dark_medium: rgba(31, 31, 31, 0.2);
+
+$primary_color: $teal_500;
+
+$text_black_color: $black_500;
+$text_white_color: $white_500;
+$text_grey_color: $black_300;
+$text_light_grey_color: $black_200;
+$text_primary_color: $primary-color;
+
+$dashbd-header-border: 0.2rem solid $black_300;
+$input-border: 0.2rem solid $black_200;
+
+$medium_font_stack: 'Roboto Medium', Arial, Helvetica, sans-serif;
+$regular_font_stack: 'Roboto Regular', Arial, Helvetica, sans-serif;
+
+%header_h1 {
+  font-size: 4.8rem;
+  font-family: $medium_font_stack;
+  font-weight: 500;
+  color: $text_black_color;
+}
+%header_h2 {
+  font-size: 3.4rem;
+  font-family: $medium_font_stack;
+  font-weight: 500;
+  color: $text_black_color;
+  margin: 1rem 0;
+}
+%header_h3 {
+  font-size: 2.8rem;
+  font-family: $medium_font_stack;
+  font-weight: 500;
+  color: $text_black_color;
+}
+%header_h4 {
+  font-size: 1.8rem;
+  font-family: $medium_font_stack;
+  font-weight: 500;
+  color: $text_black_color;
+}
+
+%text_normal {
+  font-size: 1.5rem;
+  font-family: $regular_font_stack;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+}
+%text_normal_bold {
+  font-size: 1.5rem;
+  font-family: $medium_font_stack;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+}
+%text_sm {
+  font-size: 1.2rem;
+  font-family: $regular_font_stack;
+  font-weight: 400;
+  line-height: 1.83;
+}
+%text_sm_bold {
+  font-size: 1.2rem;
+  font-family: $medium_font_stack;
+  font-weight: 500;
+  line-height: 1.83;
+}
+%text_xs {
+  font-size: 1.1rem;
+  font-family: $regular_font_stack;
+  font-weight: 400;
+}
+%text_xs_bold {
+  font-size: 1.1rem;
+  font-family: $medium_font_stack;
+}
