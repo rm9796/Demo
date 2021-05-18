@@ -1,1 +1,1 @@
-
+export { fetchAll } from './general';

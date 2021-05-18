@@ -1,11 +1,8 @@
-import React, { useCallback, useEffect } from 'react';
+//import React, { useCallback, useEffect } from 'react';
 //import { useAsync, useRouter } from 'hooks';
 
 export const Dashboard = () => {
   //const routerBag = useRouter();
-  
 
-  return (
-   <div>Hello</div>
-  );
+  return <div>Hello</div>;
 };
