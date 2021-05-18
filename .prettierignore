@@ -13,3 +13,8 @@ LICENSE
 yarn-error.log
 /build
 /public
+# Ignore artifacts:
+coverage
+
+# Ignore all HTML files:
+*.html
