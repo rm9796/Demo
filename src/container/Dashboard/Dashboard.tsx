@@ -3,8 +3,5 @@
 
 export const Dashboard = () => {
   //const routerBag = useRouter();
-
-  return <div>
-    Hello
-    </div>;
+  return <div>Hello</div>;
 };
